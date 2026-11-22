@@ -1,6 +1,6 @@
 # Heterogeneous SoC CNN Accelerator
 
-This EECS 298 repository contains two independent FPGA accelerator efforts for the AMD Kria KR260.
+This repository contains two independent FPGA accelerator efforts for the AMD Kria KR260.
 
 - **CNN convolution.** The `fasterConv` overlay implements two 5×5 convolution layers in programmable logic. PYNQ can load the overlay directly. End-to-end CNN inference requires additional host code, model parameters, and input data.
 - **Matrix multiplication.** Two standalone overlays implement baseline and optimized 16×16 integer matrix multiplication. A PYNQ notebook checks both implementations against NumPy and measures their latency.
