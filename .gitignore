@@ -20,7 +20,6 @@ build/
 
 # Local data and course materials
 images.bin
-/JupyterNotebooks/optimizedImplementation.ipynb
 /EECS298_final_project_report.pdf
 
 # OS metadata
