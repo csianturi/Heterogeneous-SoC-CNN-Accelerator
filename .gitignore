@@ -1,0 +1,28 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Local Vivado and Vitis HLS output
+.Xil/
+*.jou
+*.log
+*.str
+*.xpr
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.sim/
+build/
+
+# Local data and course materials
+images.bin
+/JupyterNotebooks/optimizedImplementation.ipynb
+/EECS298_final_project_report.pdf
+
+# OS metadata
+.DS_Store
+Thumbs.db
